@@ -35,7 +35,7 @@ class App extends React.Component {
       const newItem = {
         id: Date.now(),
         value:todoValue,
-        idDone:false
+        isDone:false
       };
       const list = [...this.state.list]
       list.push(newItem)
@@ -77,10 +77,26 @@ class App extends React.Component {
             onChange={e => this.updateInput(e.target.value)}
           />
 
-          <button type="" className="add-btn">Add Todo</button>
+          <button className="add-btn" onClick={() => this.addItem(this.state.newItem)} 
+          disabled={!this.state.newItem.length}
+          >Add Todo</button>
 
           <div className="list">
             <ul>
+              {this.state.list.map(item => {
+                return(
+                  <li key={item.id}>
+                    <input type="checkbox" name="idDone" checked={item.isDone} onChange={() =>{}} 
+                    value="" />
+                  {item.value}
+                  <button type="" 
+                  className="btn"
+                  onClick= {() => this.deleteItem(item.id)}
+                  >Delete</button>
+
+                  </li>
+                )
+              })}
               <li>
                 <input type="checkbox" name="" value="" />
                 Complete E-Commerce Project
