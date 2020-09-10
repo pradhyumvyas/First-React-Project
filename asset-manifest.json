@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/First-React-Project/static/css/main.1536b8be.chunk.css",
+    "main.js": "/First-React-Project/static/js/main.8cca828e.chunk.js",
+    "main.js.map": "/First-React-Project/static/js/main.8cca828e.chunk.js.map",
+    "runtime-main.js": "/First-React-Project/static/js/runtime-main.d3a5ab79.js",
+    "runtime-main.js.map": "/First-React-Project/static/js/runtime-main.d3a5ab79.js.map",
+    "static/js/2.1a2844ca.chunk.js": "/First-React-Project/static/js/2.1a2844ca.chunk.js",
+    "static/js/2.1a2844ca.chunk.js.map": "/First-React-Project/static/js/2.1a2844ca.chunk.js.map",
+    "index.html": "/First-React-Project/index.html",
+    "precache-manifest.e173daad5438f257ee2395389eaa5053.js": "/First-React-Project/precache-manifest.e173daad5438f257ee2395389eaa5053.js",
+    "service-worker.js": "/First-React-Project/service-worker.js",
+    "static/css/main.1536b8be.chunk.css.map": "/First-React-Project/static/css/main.1536b8be.chunk.css.map",
+    "static/js/2.1a2844ca.chunk.js.LICENSE.txt": "/First-React-Project/static/js/2.1a2844ca.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/First-React-Project/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3a5ab79.js",
+    "static/js/2.1a2844ca.chunk.js",
+    "static/css/main.1536b8be.chunk.css",
+    "static/js/main.8cca828e.chunk.js"
+  ]
+}
